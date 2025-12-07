@@ -157,10 +157,7 @@ describe('Payment Service', () => {
 
             const methods = [
                 PaymentMethod.CASH,
-                PaymentMethod.BANK_TRANSFER,
-                PaymentMethod.CREDIT_CARD,
-                PaymentMethod.DEBIT_CARD,
-                PaymentMethod.CHECK
+                PaymentMethod.BANK_TRANSFER
             ];
 
             methods.forEach(method => {

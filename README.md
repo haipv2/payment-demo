@@ -100,9 +100,6 @@ The system supports the following payment methods:
 
 - `CASH` - Cash payment
 - `BANK_TRANSFER` - Bank transfer
-- `CREDIT_CARD` - Credit card
-- `DEBIT_CARD` - Debit card
-- `CHECK` - Check payment
 
 ## Invoice Statuses
 

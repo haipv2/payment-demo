@@ -73,7 +73,7 @@ describe('Integration Tests', () => {
             expect(receipt2.remainingBalance).toBe(300.00);
 
             // Final payment
-            const payment3 = processPayment(payment2.invoice, 300.00, PaymentMethod.CREDIT_CARD);
+            const payment3 = processPayment(payment2.invoice, 300.00, PaymentMethod.BANK_TRANSFER);
             expect(payment3.success).toBe(true);
             expect(payment3.invoice.status).toBe(InvoiceStatus.PAID);
             expect(payment3.invoice.outstandingAmount).toBe(0);

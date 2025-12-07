@@ -29,12 +29,6 @@ export enum PaymentMethod {
     CASH = 'CASH',
     /** Bank transfer payment */
     BANK_TRANSFER = 'BANK_TRANSFER',
-    /** Credit card payment */
-    CREDIT_CARD = 'CREDIT_CARD',
-    /** Debit card payment */
-    DEBIT_CARD = 'DEBIT_CARD',
-    /** Check payment */
-    CHECK = 'CHECK'
 }
 
 /**

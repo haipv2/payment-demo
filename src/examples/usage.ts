@@ -121,7 +121,6 @@ console.log('');
 
 const payments = [
     { amount: 500.00, method: PaymentMethod.CASH },
-    { amount: 600.00, method: PaymentMethod.CREDIT_CARD },
     { amount: 700.00, method: PaymentMethod.BANK_TRANSFER }
 ];
 
